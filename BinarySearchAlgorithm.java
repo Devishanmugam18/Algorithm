@@ -4,7 +4,7 @@ public class BinarySearchAlgorithm {
 	public static void main(String[] args) {
 	
 		Scanner scan = new Scanner(System.in);
-		
+	
 		System.out.println("Enter the length of the array");
 		int arrayLength = scan.nextInt();
 		int[] sortedArray = new int[arrayLength];
