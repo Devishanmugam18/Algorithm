@@ -1,8 +1,8 @@
 function bubbleSort(array){
     let flag = false;
-    for(var i = 0; i <= array.length-1; i++){
+    for(var i = 0; i < array.length-1; i++){
         flag = false;
-        for(var j = 0; j < ( array.length - i -1); j++){
+        for(var j = 0; j <= array.length - i; j++){
 
             // Comparing two adjacent numbers 
             // and see if first is greater than second
